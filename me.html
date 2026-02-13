@@ -1,3 +1,34 @@
-<p>
-    My name is Nisha
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GridPay Calculator</title>
+
+<link rel="stylesheet" href = "project.css">
+<script src="prj.js" defer></script>
+
+</head>
+
+<body>
+
+<div class="container">
+    <h1>⚡ GridPay Calculator</h1>
+
+    <input type="number" id="units" placeholder="Enter Units Consumed">
+
+    <button onclick="calculateBill()">Calculate Bill</button>
+
+    <div class="result" id="resultBox">
+        <h2 id="totalBill"></h2>
+        <p id="breakdown"></p>
+        <p id="savingMessage"></p>
+        <p id="rewardMessage"></p>
+    </div>
+
+    <button class="reset-btn" id="resetBtn" onclick="resetCalculator()">Calculate Again</button>
+</div>
+
+
+
+</body>
+</html>
