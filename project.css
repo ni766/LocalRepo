@@ -8,8 +8,8 @@ body {
     justify-content: center;
     align-items: center;
     background:
-        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-        url('gettyimages-1283888226-640x640.jpg') no-repeat center center fixed;
+        /* linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), */
+         url('cal.jpg') no-repeat center center fixed; 
     background-size: cover;
     color: white;
 }
